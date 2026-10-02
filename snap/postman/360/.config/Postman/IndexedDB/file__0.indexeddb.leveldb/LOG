@@ -1,0 +1,13 @@
+2026/07/23-03:59:02.680 e01 Reusing MANIFEST /home/devasc/snap/postman/113/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2026/07/23-03:59:02.680 e01 Recovering log #10
+2026/07/23-03:59:02.681 e01 Reusing old log /home/devasc/snap/postman/113/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/000010.log 
+2026/07/23-03:59:11.522 e80 Level-0 table #14: started
+2026/07/23-03:59:11.524 e80 Level-0 table #14: 4108 bytes OK
+2026/07/23-03:59:11.525 e80 Delete type=0 #10
+2026/07/23-03:59:11.526 e80 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 786 : 1
+2026/07/23-03:59:11.526 e80 Compacting 1@0 + 1@1 files
+2026/07/23-03:59:11.528 e80 Generated table #15@0: 600 keys, 10321 bytes
+2026/07/23-03:59:11.528 e80 Compacted 1@0 + 1@1 files => 10321 bytes
+2026/07/23-03:59:11.529 e80 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/07/23-03:59:11.530 e80 Delete type=2 #14
+2026/07/23-03:59:11.530 e80 Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 786 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
