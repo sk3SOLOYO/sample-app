@@ -16,5 +16,5 @@ echo "EXPOSE 5050" >> tempdir/Dockerfile
 echo "CMD python /home/myapp/sample_app.py" >> tempdir/Dockerfile
 cd tempdir
 docker build -t sampleapp .
-docker run -t -d -p 5050:5050 --name samplerunning sampleapp python /home/myapp/sample_app.py
+docker run -t -d -p 5050:5050 --security-opt seccomp=unconfined --name samplerunning sampleapp python /home/myapp/sample_app.py
 docker ps -a
